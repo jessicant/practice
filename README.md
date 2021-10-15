@@ -1,2 +1,2 @@
 # practice
-Use this repo to give practice to new members on how to use Github
+Use this repo to give practice to new members on how to use Github yo
