@@ -1,5 +1,2 @@
-hello world! How are you doing?
-this is a bad example of what to do
-i am typing random stuff
-fooBar
+hello world
 
