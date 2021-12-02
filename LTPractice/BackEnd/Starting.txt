@@ -2,18 +2,13 @@ Hello and welcome to the Husky Coding Life Tracker Back End team (what a mouthfu
 This is a starter project to guage everyone's coding ability so Jess (backend lead dev)
 can appriorately assign tasks to everyone.
 
-Please kindly work on only the files with your name on it. I do not care if you copy other's code or anything for this.
-Life is open book. Go crazy. If you can copy code that accurately does what is needed then live your best Life
-that is 90% of software engineering. 
+Please kindly work on only the files with your name on it.
 
 For this project, finish one py file. This file needs to be able to create an elementary representation of a to do list. 
 You may use whatever data structure you feel comfortable with AND that you feel will appropriately address the problem to make
 the list (arrays, dictionaries, hash table, whatever).
 
-You program MUST be able to create a to do list (only one, you do not need to make multiple), add to the do list, and remove from the to do list.
+You program MUST be able to create a to do list (only one, you do not need to make multiple), add to the to do list, and remove from the to do list.
 Try to follow good OOP principles (encapsulation, abstration, ect...) and general good style. You are free to import whatever libraries you feel
 would be beneficial to your work. If you do so, please kindly make a "YourNameReq.txt" file and add what libraries you import in there,
 so I know what to import. For example ("JessReq.txt") 
-
-You should attempt to do quality work that accurately represents your ability. It is alright if you are new
-and you have a lot to learn (Same). Try your best and feel free to reach out to Jess if you need help. 
