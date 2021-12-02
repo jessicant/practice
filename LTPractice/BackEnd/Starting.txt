@@ -6,9 +6,18 @@ Please kindly work on only the files with your name on it.
 
 For this project, finish one py file. This file needs to be able to create an elementary representation of a to do list. 
 You may use whatever data structure you feel comfortable with AND that you feel will appropriately address the problem to make
-the list (arrays, dictionaries, hash table, whatever).
+the list (arrays, dictionaries, hash table, whatever). It also needs to have an interactive session.
 
-You program MUST be able to create a to do list (only one, you do not need to make multiple), add to the to do list, and remove from the to do list.
+For example:
+To-Do list options
+1 - add
+2 - remove
+3 - exit
+
+Try to come up with and program against edge cases (adding when no to do list exists, removing when there are no tasks, and so on). I understand some of you may not have a good understanding of github or python semantics and may struggle.
+This is perfectly fine, I am judging your ability to search the internet and find good answers to your questions when you may have limited context. As such I will have to discourage you from reaching out to me
+(Jess) unless you get truly stuck and really need help. I need a gauge of how much hand holding everyone will need and this will be part of how I determine that.
+
 Try to follow good OOP principles (encapsulation, abstration, ect...) and general good style. You are free to import whatever libraries you feel
 would be beneficial to your work. If you do so, please kindly make a "YourNameReq.txt" file and add what libraries you import in there,
 so I know what to import. For example ("JessReq.txt") 
