@@ -18,6 +18,6 @@ Try to come up with and program against edge cases (adding when no to do list ex
 This is perfectly fine, I am judging your ability to search the internet and find good answers to your questions when you may have limited context. As such I will have to discourage you from reaching out to me
 (Jess) unless you get truly stuck and really need help. I need a gauge of how much hand holding everyone will need and this will be part of how I determine that.
 
-Try to follow good OOP principles (encapsulation, abstration, ect...) and general good style. You are free to import whatever libraries you feel
+Try to follow good OOP principles (encapsulation, abstraction, ect...) and general good style. You are free to import whatever libraries you feel
 would be beneficial to your work. If you do so, please kindly make a "YourNameReq.txt" file and add what libraries you import in there,
 so I know what to import. For example ("JessReq.txt") 
