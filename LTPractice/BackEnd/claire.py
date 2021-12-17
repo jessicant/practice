@@ -30,7 +30,7 @@ class TodoList:
             return self.year < other.year
 
         def __gt__(self, other):
-            return __lt__(other, self)
+            return self.__lt__(other, self)
 
         def __eq__(self, other):
             return self.year == other.year & self.month == other.month & self.day == other.day \
