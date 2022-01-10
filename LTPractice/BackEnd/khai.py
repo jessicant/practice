@@ -64,7 +64,7 @@ class to_do_list_client:
 
 # This class represents a to-do list
 class to_do_list:
-    task_list = None;
+    task_list = None
     
     # post: Initializes the to-do list
     def __init__(self):
