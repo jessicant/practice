@@ -59,6 +59,7 @@ def exitList():
   if (inputKey == "y"):
     print("Program terminated")
     return False
+  return True
 
 if __name__ == "__main__":
   main()
