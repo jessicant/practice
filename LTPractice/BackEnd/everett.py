@@ -2,9 +2,9 @@ listDict = {}
 
 def main():
   intro()
-  inputKey = checkToDo()
   checkCont = True
   while(checkCont):
+    inputKey = checkToDo()
     if (inputKey == "a"):
       appendItem()
     elif (inputKey == "r"):
@@ -22,7 +22,7 @@ def checkToDo():
   inputKey = ""
   while(checkInput):
     inputKey = input("Input 'a' to add a task, 'r' to remove a task, and 'e' to exit from list creator")
-    inputKey = inputKey.toLower()
+    inputKey = inputKey.lower()
     if(inputKey=="a" or inputKey == "r" or inputKey == "e"):
       checkInput = False
       print("proper input detected")
@@ -36,11 +36,11 @@ def appendItem():
   keyForItem = 0
   lookingForKey = True
   while(lookingForKey):
-    if keyForItem in keys:
+    if str(keyForItem) in keys:
       keyForItem+=1
     else:
       lookingForKey = False
-  listDict[keyForItem].append(item)
+  listDict[str(keyForItem)] = item
   print("Here is your current list")
   print(listDict.items())
 
@@ -48,14 +48,14 @@ def removeItem():
   print("Current List: ")
   print(listDict.items())
   item = input("What task number would you like to remove from your list?")
-  while(type(item) != int or item not in listDict.keys()):
+  while(item not in listDict.keys()):
     item = input("Faulty Input. What task number would you like to remove from your list?")
   listDict.pop(item)
   print("Item removed")
 
 def exitList():
   inputKey = input("Would you like to exit this program? y for yes. anything else for no")
-  inputKey = inputKey.toLower()
+  inputKey = inputKey.lower()
   if (inputKey == "y"):
     print("Program terminated")
     return False
